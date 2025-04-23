@@ -1,0 +1,5 @@
+![Image](1%20-%20addition.PNG)
+![Image](2%20-%20subtraction.PNG)
+![Image](3%20-%20multiplication.PNG)
+![Image](4%20-%20division.PNG)
+![Image](5%20-%20remainder_or_modulus.PNG)
