@@ -1,0 +1,6 @@
+![Image](1%20-%20less_than.PNG)
+![Image](2%20-%20less_than_or_equal_to.PNG)
+![Image](3%20-%20greater_than.PNG)
+![Image](4%20-%20greater_than_or_equal_to.PNG)
+![Image](5%20-%20equal_to.PNG)
+![Image](6%20-%20not_equal_to.PNG)
