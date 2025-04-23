@@ -1,0 +1,3 @@
+This Excel basic function counts the blank value in the range. (Note: We will not consider only space in a cell a blank cell).
+
+=COUNTBLANK(A1:A5)

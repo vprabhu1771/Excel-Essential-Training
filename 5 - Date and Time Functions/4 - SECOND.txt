@@ -1,0 +1,3 @@
+To extract the seconds from the time, you will use the SECOND() formula. 
+
+=SECOND(B1)

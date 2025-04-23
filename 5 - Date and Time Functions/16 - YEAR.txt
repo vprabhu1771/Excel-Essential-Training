@@ -1,0 +1,7 @@
+you can extract Year
+
+=YEAR(TODAY())
+
+OR
+
+=YEAR(B1)

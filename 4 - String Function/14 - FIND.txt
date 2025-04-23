@@ -1,0 +1,24 @@
+The FIND function in Excel is used to find the position of a substring within a text string. Here's an example:
+
+Let's say you have the following data in cell A1:
+
+A1: "Excel is amazing!"
+
+Now, you want to find the position of the word "amazing" in this text string.
+
+To do this, you can use the FIND function in cell B1 (or any other cell):
+
+B1: =FIND("amazing", A1)
+
+In this formula, the parameters are as follows:
+
+1. "amazing": The first parameter is the substring you want to find. In this case, it's the word "amazing".
+2. A1: The second parameter is the cell reference (or text string) within which you want to search for the substring.
+
+After entering the formula in cell B1, it will display: "10"
+
+The FIND function returns the position of the substring "amazing" in the text string "Excel is amazing!". In this case, "amazing" starts at the 10th position in the text string.
+
+It's important to note that the FIND function is case-sensitive. If you want to perform a case-insensitive search, you can use the SEARCH function instead of FIND.
+
+The FIND function is helpful when you need to locate the position of a specific substring within a text, and you can use this position for further text manipulation or analysis.

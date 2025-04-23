@@ -1,0 +1,20 @@
+The RIGHT function in Excel is used to extract a specified number of characters from the end (rightmost) side of a text string. Here's an example:
+
+Let's say you have the following data in cell A1:
+
+A1: "Excel is amazing!"
+
+Now, you want to extract the last 7 characters from this text.
+
+To do this, you can use the RIGHT function in cell B1 (or any other cell):
+
+B1: =RIGHT(A1, 7)
+
+In this formula, the parameters are as follows:
+
+1. A1: The first parameter is the cell reference (or text string) from which you want to extract characters.
+2. 7: The second parameter specifies the number of characters you want to extract from the right side.
+
+After entering the formula in cell B1, it will display: "amazing!"
+
+The RIGHT function is useful when you need to extract a specific number of characters from the end of a text string, and it's particularly handy for tasks like extracting suffixes or file extensions from cell contents.

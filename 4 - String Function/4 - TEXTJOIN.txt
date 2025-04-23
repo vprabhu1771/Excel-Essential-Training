@@ -1,0 +1,23 @@
+The TEXTJOIN function in Excel is used to concatenate multiple strings with a specified delimiter. Here's an example:
+
+Let's say you have the following data in cells A1, A2, and A3:
+
+A1: Apple
+A2: Banana
+A3: Orange
+
+Now, you want to combine these strings into a single cell, separated by commas.
+
+To do this, you can use the TEXTJOIN function in cell B1 (or any other cell):
+
+B1: =TEXTJOIN(", ", TRUE, A1:A3)
+
+In this formula, the parameters are as follows:
+
+1. ", ": The first parameter is the delimiter (in this case, a comma followed by a space) that you want to use to separate the strings.
+2. TRUE: The second parameter indicates whether to ignore empty cells or not. TRUE means empty cells will be ignored, and FALSE means empty cells will be included in the result.
+3. A1:A3: The third parameter specifies the range of cells that contain the strings you want to join.
+
+After entering the formula in cell B1, it will display: "Apple, Banana, Orange"
+
+The TEXTJOIN function is especially useful when you have a range of cells containing text data that you want to concatenate with a specified delimiter, and you can easily control whether to include empty cells or not in the final result.

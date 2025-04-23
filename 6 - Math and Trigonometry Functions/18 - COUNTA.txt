@@ -1,0 +1,3 @@
+This formula counts the value in one or more cells (This will measure the cells irrespective of the number or text value).
+
+=COUNTA(A1:A5)

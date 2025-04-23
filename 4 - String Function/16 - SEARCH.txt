@@ -1,0 +1,24 @@
+The SEARCH function in Excel is similar to the FIND function but performs a case-insensitive search to find the position of a substring within a text string. Here's an example:
+
+Let's use the same data from the previous example. In cell A1, we have the text:
+
+A1: "Excel is amazing!"
+
+Now, let's find the position of the word "AMAZING" in this text string, regardless of the case.
+
+To do this, you can use the SEARCH function in cell B1 (or any other cell):
+
+B1: =SEARCH("AMAZING", A1)
+
+In this formula, the parameters are the same as in the FIND function:
+
+1. "AMAZING": The first parameter is the substring you want to find. In this case, it's the word "AMAZING" (in uppercase).
+2. A1: The second parameter is the cell reference (or text string) within which you want to search for the substring.
+
+After entering the formula in cell B1, it will display: "10"
+
+The SEARCH function also returns the position of the substring "AMAZING" in the text string "Excel is amazing!", just like the FIND function. However, the difference is that SEARCH is case-insensitive, so it finds the substring regardless of whether it's in uppercase or lowercase.
+
+If you had used the FIND function in this example, it would have returned an error (#VALUE!), as it couldn't find the exact uppercase substring "AMAZING" in the original text, which contains "amazing" in lowercase.
+
+The SEARCH function is useful when you want to perform a case-insensitive search for a substring within a text, and it can be especially handy when dealing with text data where the case may vary.

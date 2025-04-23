@@ -1,0 +1,3 @@
+To extract the hour from the time, you will use the HOUR() formula. 
+
+=HOUR(B1)

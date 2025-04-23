@@ -1,0 +1,7 @@
+you can extract day
+
+=DAY(TODAY())
+
+OR
+
+=DAY(B1)

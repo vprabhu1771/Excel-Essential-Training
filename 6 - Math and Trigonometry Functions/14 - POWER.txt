@@ -1,0 +1,11 @@
+the POWER() formula to square, cube, or apply any raise to power to your cell. 
+
+=POWER(A1,1)
+
+OR
+
+=POWER(A1,2)
+
+OR
+
+=POWER(A1,3)

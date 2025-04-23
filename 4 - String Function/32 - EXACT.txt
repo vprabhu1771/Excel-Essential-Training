@@ -1,0 +1,25 @@
+The EXACT function in Excel is used to check if two text strings are exactly the same, including their capitalization. It returns TRUE if the two strings are identical and FALSE if they are not. Here's an example:
+
+Let's say you have the following data in cells A1 and B1:
+
+A1: "Hello, World!"
+B1: "Hello, world!"
+
+Now, you want to compare these two strings to see if they are exactly the same.
+
+To do this, you can use the EXACT function in cell C1 (or any other cell):
+
+C1: =EXACT(A1, B1)
+
+In this formula, the parameters are as follows:
+
+1. A1: The first parameter is the first text string (or cell reference) you want to compare.
+2. B1: The second parameter is the second text string (or cell reference) you want to compare.
+
+After entering the formula in cell C1, it will display: "FALSE"
+
+The EXACT function returns FALSE because the two strings "Hello, World!" and "Hello, world!" are not exactly the same due to the difference in capitalization.
+
+If you had used the EXACT function to compare "Hello, World!" with "Hello, World!", it would have returned "TRUE" as they are exactly the same, including capitalization.
+
+The EXACT function is helpful when you need to perform a case-sensitive comparison between two text strings and want to determine if they match precisely. It's commonly used in data validation, conditional formatting, and various comparison scenarios in Excel.

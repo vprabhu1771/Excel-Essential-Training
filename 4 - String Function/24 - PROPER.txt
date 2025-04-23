@@ -1,0 +1,21 @@
+The PROPER function in Excel is used to capitalize the first letter of each word in a text string. Here's an example:
+
+Let's say you have the following data in cell A1:
+
+A1: "excel is amazing"
+
+Now, you want to capitalize the first letter of each word in this text.
+
+To do this, you can use the PROPER function in cell B1 (or any other cell):
+
+B1: =PROPER(A1)
+
+In this formula, the parameter is as follows:
+
+1. A1: The parameter is the cell reference (or text string) that you want to capitalize.
+
+After entering the formula in cell B1, it will display: "Excel Is Amazing"
+
+The PROPER function capitalizes the first letter of each word in the text string. It's useful when you need to format text with proper capitalization, especially when dealing with names, titles, or other text that should follow standard capitalization rules.
+
+Please note that the PROPER function will capitalize the first letter of each word and convert all other letters to lowercase. If you want to capitalize only the first letter of the entire text (i.e., leave other letters as they are), you can use the UPPER function or simply type the first letter in uppercase manually.

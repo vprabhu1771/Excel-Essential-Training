@@ -1,0 +1,7 @@
+The MIN() formula requires a range of cells, and it returns the minimum value. 
+
+=MIN(A1:A5)
+
+The MAX() formula is the opposite of MIN(). It will return the maximum value from the selected range of cells.
+
+=MAX(A1:A5)

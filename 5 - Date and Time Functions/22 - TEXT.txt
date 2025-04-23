@@ -1,0 +1,148 @@
+You can use the following spreadsheet formula, assuming your date is in cell A1:
+
+=TEXT(A1, "dddd")
+
+This formula will convert the date in cell A1 to its corresponding weekday (e.g., "Thursday").
+
+
+1. To display the full weekday name (e.g., "Thursday"):
+   
+   =TEXT(A1, "dddd")
+   
+
+2. To display the abbreviated weekday name (e.g., "Thu"):
+   
+   =TEXT(A1, "ddd")
+   
+
+3. To display the day of the month (e.g., "27"):
+   
+   =TEXT(A1, "d")
+   
+
+4. To display the month as a number (e.g., "9" for September):
+   
+   =TEXT(A1, "m")
+   
+
+5. To display the month as a full name (e.g., "September"):
+   
+   =TEXT(A1, "mmmm")
+   
+
+6. To display the year as a 4-digit number (e.g., "2023"):
+   
+   =TEXT(A1, "yyyy")
+   
+
+7. To format the date as "MM/DD/YYYY" (e.g., "09/27/2023"):
+   
+   =TEXT(A1, "MM/DD/YYYY")
+   
+
+8. To format the date as "DD-MMM-YYYY" (e.g., "27-Sep-2023"):
+   
+   =TEXT(A1, "DD-MMM-YYYY")
+   
+
+9. To display the month as a 2-digit number (e.g., "09" for September):
+   
+   =TEXT(A1, "mm")
+   
+
+10. To display the day of the week as a 2-digit number (e.g., "03" for Tuesday):
+    
+    =TEXT(A1, "dd")
+    
+
+11. To display the year as a 2-digit number (e.g., "23" for 2023):
+    
+    =TEXT(A1, "yy")
+    
+
+12. To format the date in a custom way, such as "YYYY/MM/DD" (e.g., "2023/09/27"):
+    
+    =TEXT(A1, "YYYY/MM/DD")
+    
+
+13. To display the time in 12-hour format with AM/PM (e.g., "02:30 PM"):
+    
+    =TEXT(A1, "hh:mm AM/PM")
+    
+
+14. To display the time in 24-hour format (e.g., "14:30"):
+    
+    =TEXT(A1, "hh:mm")
+    
+
+15. To display the day of the week and the date (e.g., "Thursday, September 27, 2023"):
+    
+    =TEXT(A1, "dddd, mmmm d, yyyy")
+    
+
+16. To display the time with seconds (e.g., "14:30:15"):
+    
+    =TEXT(A1, "hh:mm:ss")
+    
+
+17. To display the month and year (e.g., "September 2023"):
+    
+    =TEXT(A1, "mmmm yyyy")
+    
+
+18. To display the day of the year (e.g., "270" for September 27th):
+    
+    =TEXT(A1, "ddd")
+    
+
+19. To display the date as "YYYY-MM-DD" (e.g., "2023-09-27"):
+    
+    =TEXT(A1, "YYYY-MM-DD")
+    
+
+20. To display the time in 12-hour format with seconds and AM/PM (e.g., "02:30:15 PM"):
+    
+    =TEXT(A1, "hh:mm:ss AM/PM")
+    
+
+21. To display the date and time together (e.g., "09/27/2023 14:30"):
+    
+    =TEXT(A1, "MM/DD/YYYY hh:mm")
+    
+
+22. To display the day of the week and time (e.g., "Thursday, 14:30"):
+    
+    =TEXT(A1, "dddd, hh:mm")
+   
+
+23. To display the date with a custom separator (e.g., "09-27-2023"):
+    
+    =TEXT(A1, "MM-DD-YYYY")
+    
+
+24. To display the month and day (e.g., "Sep 27"):
+    
+    =TEXT(A1, "mmm dd")
+    
+
+25. To display the time in 12-hour format with seconds and milliseconds (e.g., "02:30:15.500 PM"):
+    
+    =TEXT(A1, "hh:mm:ss.000 AM/PM")
+    
+
+26. To display the day of the week as an abbreviation (e.g., "Thu"):
+    
+    =TEXT(A1, "ddd")
+    
+
+27. To display the time with milliseconds (e.g., "14:30:15.500"):
+    
+    =TEXT(A1, "hh:mm:ss.000")
+    
+
+28. To display the date in a custom long format (e.g., "27th of September, 2023"):
+    
+    =TEXT(A1, "d of mmmm, yyyy")
+    
+
+These examples should give you a wide range of options to format dates and times in your spreadsheet as needed. Feel free to adjust the formatting codes to match your specific requirements.

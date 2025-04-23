@@ -1,0 +1,15 @@
+The CEILING() formula rounds a number up to the nearest given multiple. In our case, 
+we will round 3.24 up to a multiple of 1 and get 4. 
+If the multiple is 5, it will round up the number 3.24 to 5. 
+
+=CEILING(A1,1)
+
+OR
+
+=CEILING(A1,5)
+
+
+The FLOOR() rounds a number down to the nearest given multiple. As we can see in the image below, 
+instead of converting 3.24 to 4, it has rounded the number to 3.  
+
+=FLOOR(A1,1)

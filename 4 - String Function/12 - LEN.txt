@@ -1,0 +1,21 @@
+The LEN function in Excel is used to find the number of characters in a text string. Here's an example:
+
+Let's say you have the following data in cell A1:
+
+A1: "Hello, World!"
+
+Now, you want to find the length (number of characters) of this text string.
+
+To do this, you can use the LEN function in cell B1 (or any other cell):
+
+B1: =LEN(A1)
+
+In this formula, the parameter is as follows:
+
+1. A1: The parameter is the cell reference (or text string) for which you want to find the length.
+
+After entering the formula in cell B1, it will display: "13"
+
+The LEN function returns the count of characters in the cell A1, including spaces and punctuation. In this case, the text string "Hello, World!" has 13 characters, and the LEN function correctly returns that value.
+
+The LEN function is handy when you need to determine the length of text strings, especially when you want to check if the length meets specific criteria or when performing text-related calculations.

@@ -1,0 +1,6 @@
+The SUM() formula performs addition on selected cells. It works on cells containing numerical values and requires two or more cells.  
+
+In our case, we will be applying the SUM formula to a range of cells from A1 to A5 and storing the result on C6. It will add 10, 20, 30, 40 and 50. 
+You can also apply this formula to multiple columns.
+
+=SUM(A1:A5)

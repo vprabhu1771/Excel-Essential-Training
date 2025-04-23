@@ -1,0 +1,7 @@
+you can extract month
+
+=MONTH(TODAY())
+
+OR
+
+=MONTH(B1)

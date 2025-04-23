@@ -1,0 +1,5 @@
+Note that these dates are in the MM/DD/YYYY format (the date format followed in the US). These may look different in your system based on your regional date setting.
+
+Below is the formula to do that:
+
+=EOMONTH(B1, 2)+30

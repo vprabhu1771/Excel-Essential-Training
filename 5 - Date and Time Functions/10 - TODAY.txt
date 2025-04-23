@@ -1,0 +1,3 @@
+TODAY will return only the current date. 
+
+=TODAY()
