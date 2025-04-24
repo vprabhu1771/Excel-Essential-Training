@@ -44,7 +44,7 @@ Here’s a comprehensive list of **Advanced Excel Formulas** that are incredibly
 2. **`DATEDIF()`** – Difference between two dates (not documented but powerful)  
 3. **`EDATE()` / `EOMONTH()`** – Add months to a date  
 4. **`NETWORKDAYS()` / `WORKDAY()`** – Count workdays  
-5. **`TEXT()` – Format date as text  
+5. **`TEXT()`** – Format date as text  
 6. **`YEAR()`, `MONTH()`, `DAY()`, `WEEKDAY()`**
 
 ---
