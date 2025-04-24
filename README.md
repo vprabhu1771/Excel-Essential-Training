@@ -33,9 +33,9 @@ Here’s a comprehensive list of **Advanced Excel Formulas** that are incredibly
 3. **`LARGE()` / `SMALL()`** – Nth largest/smallest values  
 4. **`ROUND()`, `ROUNDUP()`, `ROUNDDOWN()`**  
 5. **`INT()` / `MOD()` / `TRUNC()`**  
-6. **`SUBTOTAL()` – Conditional totals  
-7. **`AGGREGATE()` – Advanced aggregation with options to ignore errors  
-8. **`FLOOR()`, `CEILING()` – Round down/up to a multiple  
+6. **`SUBTOTAL()`** – Conditional totals  
+7. **`AGGREGATE()`** – Advanced aggregation with options to ignore errors  
+8. **`FLOOR()`, `CEILING()`** – Round down/up to a multiple  
 
 ---
 
