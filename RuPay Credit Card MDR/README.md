@@ -4,6 +4,10 @@ If you're asking **what percentage 997.99 is of 42,500**:
 \frac{997.99}{42500} \times 100 \approx 2.35%
 ]
 
+$$
+\frac{997.99}{42500} \times 100 \approx 2.35\%
+$$
+
 **Answer: 997.99 is approximately 2.35% of 42,500.**
 
 If you meant something different (for example, *42,500 minus 997.99 and the percentage decrease*), the decrease is also about **2.35%**.
