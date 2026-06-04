@@ -1,0 +1,3 @@
+```
+Print -> Orientaion -> Landscape Orientation
+```
